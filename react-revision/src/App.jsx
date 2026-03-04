@@ -5,6 +5,7 @@ import './App.css'
 import Button  from './components/button'
 import { Jsx } from './components/Jsx'
 import { Sum } from './components/Sum'
+import { Name} from './components/Name';
 
 function App() {
   return <>
@@ -15,6 +16,8 @@ function App() {
     <Jsx></Jsx>
     {/* sum componenet rendering */}
     <Sum></Sum>
+    {/* name component render  */}
+    <Name></Name>
   </div>
   </>
 }
