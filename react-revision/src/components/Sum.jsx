@@ -7,7 +7,7 @@ function calcution(){
 function Sum(){
     return (
         <>
-        the calculation of 5 and 8 are : {calcution}
+        the calculation of 5 and 8 are : {calcution()}
         </>
     )
 }
