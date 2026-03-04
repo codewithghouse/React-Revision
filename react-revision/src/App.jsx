@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Button  from './components/button'
 import { Jsx } from './components/Jsx'
+import { Sum } from './components/Sum'
 
 function App() {
   return <>
@@ -12,6 +13,8 @@ function App() {
     <h1>hi  this is ghouse a backend deveeloper and lead full stack engineer at neominds techhub</h1>
     <Button></Button>
     <Jsx></Jsx>
+    {/* sum componenet rendering */}
+    <Sum></Sum>
   </div>
   </>
 }
